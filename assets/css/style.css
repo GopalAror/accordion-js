@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container {
+    max-width: 1160px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.h1 {
+    color: var(--gray, #808080);
+    text-align: center;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.accordian {
+    display: flex;
+    padding: 24px 21px;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 540px;
+    border-radius: 20px;
+    background: var(--white, #FFF);
+    box-shadow: 0px 11px 44px -10px rgba(0, 0, 0, 0.25);
+}
+
+.accordian-tittle {
+    color: var(--gray, #808080);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* .accordian-item1 {
+
+    cursor: pointer;
+}
+
+.accordian-content1 {
+    color: var(--gray, #808080);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    padding: 10px;
+    padding-top: 20px;
+    display: none;
+}
+
+.accordian-item2 {
+
+    cursor: pointer;
+}
+
+.accordian-item.active.svg {
+    transform: rotate(180deg);
+}
+
+.accordian-content2 {
+    color: var(--gray, #808080);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    padding: 10px;
+    padding-top: 20px;
+    display: none;
+}
+
+.accordian-item3 {
+
+    cursor: pointer;
+}
+
+.accordian-content3 {
+    color: var(--gray, #808080);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    padding: 10px;
+    padding-top: 20px;
+    display: none;
+}
+
+.accordian-item4 {
+
+    cursor: pointer;
+}
+
+.accordian-content4 {
+    color: var(--gray, #808080);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    padding: 10px;
+    padding-top: 20px;
+    display: none;
+} */
+
+/* .accordian-tittle:hover{
+ border:1px solid #0c86f1;
+
+    transition: all 200ms linear;
+} */
+.accordian-item {
+    cursor: pointer;
+    height: 59px;
+    overflow: hidden;
+
+    border: 1px solid var(--border, rgba(0, 0, 0, 0.10));
+    border-radius: 5px;
+    padding: 17px 11px 13px 19px;
+}
+
+.accordian-content {
+    color: var(--gray, #808080);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    padding-top: 20px;
+
+}
+
+.active {
+    height: unset;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.align-item-center {
+    align-items: center;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.mt-43 {
+    margin-top: 43px;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.accordian-item.active{
+    border: 1px solid #128DFF;
+}
+.accordian-item.active .group{
+    color: black;
+}
+.accordian-item.active .group svg{
+    transform: rotate(180deg);
+}
